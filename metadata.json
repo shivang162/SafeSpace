@@ -1,0 +1,6 @@
+{
+  "name": "SafeSpace",
+  "description": "A place to be human. Nothing to prove. Nothing to pretend. An anonymous social community and mental wellness platform for Gen-Z.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

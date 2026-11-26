@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #080D18;
+    --bg-secondary: #0D1628;
+    --bg-card: #131F35;
+    --bg-elevated: #1B2942;
+    --accent-blue: #648BFF;
+    --accent-lavender: #A69BFF;
+    --accent-ice: #9BCBFF;
+    --text-primary: #F4F6FC;
+    --text-secondary: #929DB3;
+    --border-subtle: #25334D;
+  }
+
+  html {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background-color: #080D18;
+    color: #F4F6FC;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #080D18;
+    color: #F4F6FC;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom subtle dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080D18;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #25334D;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #364B70;
+}
+
+.safespace-gradient-btn {
+  background: linear-gradient(135deg, #648BFF 0%, #8E84FF 100%);
+}
+
+.safespace-gradient-btn:hover {
+  background: linear-gradient(135deg, #7498FF 0%, #9D94FF 100%);
+}
+
+.safespace-gradient-text {
+  background: linear-gradient(90deg, #A69BFF 0%, #7C9BFF 55%, #9BCBFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
